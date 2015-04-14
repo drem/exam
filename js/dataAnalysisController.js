@@ -15,15 +15,7 @@ $(function () {
             yAxis: {
                 title: {
                     text: 'People'
-                },
-                plotLines: [{
-                    value: "70k",
-                    width: 1,
-                    color: '#808080'
-                }]
-            },
-            tooltip: {
-                //valueSuffix: '¢XC'
+                }
             },
             legend: {
                 layout: 'vertical',
