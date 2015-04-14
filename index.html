@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <title>exam</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
 <body>
-<div>
-	<ul>
-		<li>Data Analysis</li>
-		<li>Today's Weather</li>
-	</ul>
-</div>
-<div id="content">
+    <div class="sideBar">
+        <ul class="menu">
+            <li>Data Analysis</li>
+            <li>Today's Weather</li>
+        </ul>
+    </div>
+    <div id="content">
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        $(function () {
+            $.get('http://api.openweathermap.org/data/2.5/weather?q=Taipei,TW', function (resp) {
+                //alert( JSON.stringify(resp) );
+            });
 
-</div>
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script>
-$(function(){
-	$.get( 'http://api.openweathermap.org/data/2.5/weather?q=Taipei,TW', function(resp){
-		alert( JSON.stringify(resp) );
-	});
 
-	
-});
-</script>
+        });
+    </script>
 </body>
 </html>

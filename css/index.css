@@ -1,0 +1,6 @@
+﻿.sideBar { width: 20%; margin: 10px; }
+.menu li { padding: 5px 5px 5px 20px; border: solid 1px #c0c0c0; font-family: Arial; font-size: 12px; }
+    /* js add class */
+    .menu li:first-child, .menu li.first-child { margin-bottom: -1px; }
+    .menu li:hover, .menu li.hover { cursor: pointer; }
+    .menu li.clicked { border: solid 1px #2a9fcd; background: #e7ebff; font-weight: bold; margin-bottom:0; }
