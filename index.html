@@ -6,23 +6,23 @@
     <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="sideBar">
-        <ul class="menu">
-            <li>Data Analysis</li>
-            <li>Today's Weather</li>
-        </ul>
-    </div>
-    <div id="content">
+    <div id="wrapper">
+        <div class="sideBar">
+            <ul class="menu">
+                <li data-linkid="dataAnalysis">Data Analysis</li>
+                <li data-linkid="todayWeather">Today's Weather</li>
+            </ul>
+        </div>
+        <div id="content">
+        </div>
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script>
-        $(function () {
+        $(function () {/*
             $.get('http://api.openweathermap.org/data/2.5/weather?q=Taipei,TW', function (resp) {
                 //alert( JSON.stringify(resp) );
-            });
-
-
+            });*/
         });
     </script>
 </body>
