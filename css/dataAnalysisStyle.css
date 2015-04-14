@@ -1,0 +1,3 @@
+#dataAnalysisContainer { }
+    #dataAnalysisContainer h2 { font-family: Arial; font-size: 16px; padding-bottom: 4px; border-bottom: solid 1px #000000; }
+    #dataAnalysisContainer #chartContainer { min-width: 310px; height: 400px; }
