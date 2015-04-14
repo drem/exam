@@ -1,0 +1,14 @@
+#todayWeatherContainer { font-family: Arial; }
+    #todayWeatherContainer h2 { font-size: 16px; padding-bottom: 4px; border-bottom: solid 1px #000000; }
+    #todayWeatherContainer .row { margin: 5px 0; overflow: hidden; }
+#weatherMain { font-size: 1.5em; margin-top: 10px; }
+#weatherDescription { font-size: 0.8em; color: #ccc; }
+#ajaxLoading { position: absolute; left: 50%; top: 50%; width: 32px; height: 32px; background: url(../img/ajax-loading.gif); }
+#message { border: solid 1px red; background: pink; }
+.weatherIcon { background: url(../img/icons.png); width: 50px; height: 50px; float: left; margin: 10px; }
+.cloud { background-position: -77px -377px; }
+.rain { background-position: -292px -382px; }
+.clear { background-position: -77px -22px; }
+.nan { background-position: -152px -527px; }
+.columnMeta { width: 120px; display: inline-block; }
+.inputControl { border: solid 1px #000; border-radius: 3px; padding: 0 3px; }

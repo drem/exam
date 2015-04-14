@@ -1,3 +1,27 @@
-<div>
-Today's Weather
+<div id="todayWeatherContainer">
+    <h2>Today's Weather</h2>
+    <div id="message" class="row" style="display: none;"></div>
+    <div class="row">
+        <label for="city">City:</label>
+        <input id="city" type="text" value="Taipei" class="inputControl">
+        <label for="country">Country:</label>
+        <input id="country" type="text" value="TW" class="inputControl">
+        <button id="submitButton" type="button" class="inputControl">Search</button>
+    </div>
+    <div class="row">
+        <div class="weatherIcon nan"></div>
+        <p id="weatherMain">Main</p>
+        <p id="weatherDescription">
+            Weather description
+        </p>
+    </div>
+    <div class="row">
+        <span class="columnMeta">Temperature:</span>
+        <span id="tempMin">0</span>&#8451;~<span id="tempMax">0</span>&#8451;
+    </div>
+    <div class="row">
+        <span class="columnMeta">Humidity:</span>
+        <span id="humidity">0</span>%
+    </div>
+    <div id="ajaxLoading" style="display: none;"></div>
 </div>
