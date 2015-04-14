@@ -17,6 +17,7 @@
 
         $.get("template/" + linkId + ".html" + preventCache, function (fileContent) {
             var allContent = externalContent(linkId, preventCache) + fileContent;
+            $("#content").removeAttr("class").addClass(linkId);
             $("#content").html(allContent);
         });
 

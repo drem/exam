@@ -7,3 +7,8 @@
     .menu li:first-child, .menu li.first-child { margin-bottom: -1px; }
     .menu li:hover, .menu li.hover { cursor: pointer; }
     .menu li.clicked { border: solid 1px #2a9fcd; background: #e7ebff; font-weight: bold; margin-bottom: 0; }
+
+@media screen and (max-width: 600px) {
+    #content { width: 90%; }
+    .sideBar { width: 140px; }
+}
